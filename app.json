@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/index/index",
+    "pages/center/center",
+    "pages/takePhoto/takePhoto",
+    "pages/bindCheck/bindCheck"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "花道球馆",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "assets/tabbar/all.png",
+        "selectedIconPath": "assets/tabbar/all_active.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "签到",
+        "iconPath": "assets/tabbar/atm.png",
+        "selectedIconPath": "assets/tabbar/atm_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "assets/tabbar/bussiness-man.png",
+        "selectedIconPath": "assets/tabbar/bussiness-man_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap87.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

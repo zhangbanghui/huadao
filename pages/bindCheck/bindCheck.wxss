@@ -1,0 +1,28 @@
+/* pages/bindCheck.wxss */
+page {
+  height: 100%;
+}
+.userForm {
+  /* width: 100%; */
+  height: 100%;
+  padding: 100rpx 40rpx;
+  background-color: #eee;
+}
+.inputCustom {
+  display: flex;
+  line-height: 100rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding-left: 20rpx;
+  margin-bottom: 60rpx;
+}
+.inputLabel {
+  font-size: 32rpx;
+  width: 160rpx;
+}
+.inputInput {
+  font-size: 32rpx;
+  display: block;
+  line-height: 100rpx;
+  height: 100rpx;
+}

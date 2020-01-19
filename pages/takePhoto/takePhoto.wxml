@@ -1,0 +1,24 @@
+<!--pages/takePhoto/takePhoto.wxml-->
+<view class="takePhoto">
+  
+  <view wx:if="{{cameraShow}}" style="height: 100%;padding-bottom: 200rpx;box-sizing: border-box;">
+    <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 100%;"></camera>
+    <view class="btnControl" style="margin-top: 20rpx;">
+      <view class="takeButton iconfont icon-camera" bind:tap="handleTakePhoto"></view>
+    </view>
+  </view>
+  <view wx:else style="height: 100%;padding-bottom: 200rpx;box-sizing: border-box;">
+    <view class="showPhoto">
+      <image style="height: 100%;width: 100%;" src="{{photoFile}}"></image>
+    </view>
+    <!-- <icon type="cancel" class="showIcon error" size="40" bind:tap="handleCancel"></icon> -->
+    <!-- <icon type="success" class="showIcon success" size="40" bind:tap="handleConfirm"></icon> -->
+    <view class="btnControl" style="margin-top: 20rpx;position: relative;">
+      <view class="showIcon error iconfont icon-close" bind:tap="handleCancel"></view>
+      <view class="showIcon success iconfont icon-seleted" bind:tap="handleConfirm"></view>
+    </view>
+    <!-- <view class="showIcon error iconfont icon-close" bind:tap="handleCancel"></view> -->
+    <!-- <view class="showIcon success iconfont icon-seleted" bind:tap="handleConfirm"></view> -->
+  </view>
+  
+</view>

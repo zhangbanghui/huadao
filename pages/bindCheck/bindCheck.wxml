@@ -1,0 +1,15 @@
+<!--pages/bindCheck.wxml-->
+<view class="userForm">
+  <view class="inputCustom">
+    <view class="inputLabel">学号:</view>
+    <input class="inputInput" bindinput="numEdit" value="{{stuNo}}" type="number" placeholder="请输入学号"></input>
+  </view>
+  <view class="inputCustom">
+    <view class="inputLabel">电话号码:</view>
+    <input class="inputInput" bindinput="telEdit" value="{{phoneNo}}" type="number" placeholder="请输入电话号码"></input>
+  </view>
+
+  <view>
+    <button type="warn" bind:tap="handleSumbit">提交</button>
+  </view>
+</view>

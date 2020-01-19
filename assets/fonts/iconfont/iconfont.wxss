@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1579428394383'); /* IE9 */
+  src: url('iconfont.eot?t=1579428394383#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOkAAsAAAAAB9QAAANWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqCcIJTATYCJAMUCwwABCAFhG0HTBvjBsgekiQV4mugAEABM4OiCOr3Q/ce/CA4RBcPLKOiEFUKQreKjars1Nf4jmcj+r+69EcKKgiTQtDDrRhA1smOj3RPVpGmDgsQb4GpyFNoKo8EWfm18sP9TBclmM++bQ7ZgQMcD2g267pIauE7oBPlW4bXdqkO62YC7UaVCNqubuyEcAVdFIgnQx+D8IxWaSgMrUJTsbOUeA9Va3qLHgF4F/x+/ANHhJPUjK48uKlyQenPH++u423/tznyUMCbzgxxHxnLQCGeK61PcBRdhrXr44OtA+1aJWmqYTXv2Lvr//+T8Kk9tLN/eIQkK0QDmDrBOnVxcTwHIfhVg5D4xRAyv67zP8xtKmhHG66Az4iffnASQh0LjWp6g6PayuPr112vXnWSN91AokN7JhT59m3PG4FTwopYnBhw9OPyrs4VPV2runtWdg7o36avdG08NZWO9k7mxJyezsAHZvJ9Majn5vbrzKOvKu+8yTrxtu3m5LapPTPbp3WIiv/z8O3bGGN5LPch+A3paK0pfXirdKiycycJex1y6Bhai9YfP76eiBCwQFLaarT7QOnRo6ULkPFl9vcfxkLRX5A8jlCPbwv/Tj96/vzKhUc7toDj67ajTnKBOI92B+wtll7oLnIvdnbExDriRSTFxqR9sf2v+78PpqZSZoN16KvyGVoAIG+gC4C8iXYA8iP69OP+xui3z6HHLv/a2lHAj/qGokBddJPC25fpzPtN1pIMDUJDQHW1aBKNgqROoFq5QXvij7T8HGe/uWnkQ53zCa2GEkhajEDWahpd8MtQdViFRqs1aLekZn+HARIWpQ2LdhMIva5A0u07ZL0eowt+FqphX6DRGxjaHUbiiR1mwyAVko8p7qLj66nBhF+zDYqEhe1cX+0dk2lBQO7m0jQC1G6x5RM13M/lFGvMNbpDKY1qUvhoNbkd93oFDUjh5kxZJpQKLLVatao3sjDhA2KLxI1ROBdq3HqUgRH8NK+3Qgo/347TreY1RjZ01Bm7cZLJGJyys7B1QNdI/Z06buU1pjV0DoqioTSS4ENVEzPnZVGBClRPc+MYxWJiQDhgKSt207pKLcvLfe+4D9rRh9RIkaNEjUbLnWEqIdeHMK8weZit9vLLd4eyMd8zaAAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1579428394383') format('woff'),
+  url('iconfont.ttf?t=1579428394383') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1579428394383#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-history:before {
+  content: "\e6f8";
+}
+
+.icon-close:before {
+  content: "\e747";
+}
+
+.icon-seleted:before {
+  content: "\e763";
+}
+
+.icon-camera:before {
+  content: "\e7b2";
+}
+

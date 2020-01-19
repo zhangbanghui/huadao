@@ -1,0 +1,41 @@
+<!--pages/user/user.wxml-->
+<!-- <text>pages/user/user.wxml</text> -->
+<!-- <view>
+  <button bindtap="getLocation">获取地理位置</button>
+</view>
+<view>
+  {{location}}
+</view> -->
+
+<view class="wrapper">
+  <view class="personHead">
+    <!-- <image src="/assets/images/user_bg.jpg" style="height: 100%;width: 100%;position: absolute;left: 0;top: 0;z-index: -1;"></image> -->
+    <view class="headIcon">
+      <!-- <image src="{{headPhoto}}"></image> -->
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+  </view>
+  <view class="personContent">
+    <view class="itemCustom">
+      <view class="contentItem">
+        <view class="itemLabel">学号</view>
+        <view class="itemDetail">{{userInfo.stuNo}}</view>
+      </view>
+      <view class="contentItem">
+        <view class="itemLabel">姓名</view>
+        <view class="itemDetail">{{userInfo.stuName}}</view>
+      </view>
+      <view class="contentItem">
+        <view class="itemLabel">性别</view>
+        <view class="itemDetail">{{userInfo.stuSex}}</view>
+      </view>
+      <view class="contentItem">
+        <view class="itemLabel">教练</view>
+        <view class="itemDetail">{{userInfo.stuTeacher}}</view>
+      </view>
+      <view style="margin-top: 50rpx;" wx:if="{{isNeedBind}}">
+        <button style="background-color: #fff;" bind:tap="handleBind">绑定学生</button>
+      </view>
+    </view>
+  </view>
+</view>

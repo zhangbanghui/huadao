@@ -1,0 +1,107 @@
+/* pages/center/center.wxss */
+.takePhoto {
+  margin: 50rpx;
+}
+
+.wrapper .signTitle {
+  height: 100rpx;
+  /* background-color: orange; */
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #eee;
+}
+.wrapper .signTitle .titleIcon {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.wrapper .signTitle .titleIcon image {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .signTitle .titleName {
+  flex: 1;
+  line-height: 100rpx;
+  margin-left: 40rpx;
+  font-size: 32rpx;
+}
+.wrapper .signTitle .titleDate {
+  width: 160rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+.wrapper .signMain {
+  height: 400rpx;
+  /* background-color: skyblue; */
+}
+
+.wrapper .signMain {
+  padding: 40rpx 20rpx;
+}
+.tips {
+  display: flex;
+  font-size: 30rpx;
+  align-items: center;
+}
+.tipLight {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color: rgb(20, 163, 219);
+  margin-right: 30rpx;
+}
+.signContent {
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+}
+.signBall {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 50%;
+  /* background-color: rgb(20, 163, 219); */
+  background: linear-gradient(141deg,#D20B54, #FFB849);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 20px #999;
+}
+.innerWord {
+  color: white;
+}
+.innerTime {
+  padding-top: 20rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #eee;
+}
+.showLocation {
+  margin-top: 180rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+.showDetails {
+  display: flex;
+  font-size: 32rpx;
+  margin-top: 60rpx;
+  
+}
+.showDetails .detailItem {
+  flex: 1;
+  justify-content: space-between;
+}
+.detailContent {
+  font-size: 40rpx;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+.showDetails .detailItem .detailLabel {
+  width: 100%;
+  text-align: center;
+}
+.lastTime {
+  text-align: center;
+  font-size: 32rpx;
+}

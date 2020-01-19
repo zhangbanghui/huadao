@@ -1,0 +1,52 @@
+<!--pages/center/center.wxml-->
+<!-- <camera wx:if="{{cameraShow}}" device-position="front" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+<button size="mini" class="takePhoto" bindtap="takephoto">拍照</button>
+<image mode="widthFix" src="{{photoFile}}"></image> -->
+
+<view class="wrapper">
+  <view class="signTitle">
+    <view class="titleIcon">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="titleName">{{userName}}</view>
+    <view class="titleDate">{{date}}</view>
+  </view>
+  <view class="signMain">
+    <view class="tips">
+      <view class="tipLight"></view>
+      <view style="margin-right: 10rpx;">学习打卡</view>
+      <view class="takeButton iconfont icon-history"></view>
+      <view>{{signDetail.lastModifyTime}}</view>
+    </view>
+    <view class="showDetails">
+      <view class="detailItem">
+        <view class="detailContent">{{signDetail.integration}}</view>
+        <view class="detailLabel">打卡积分</view>
+      </view>
+      <view class="detailItem">
+        <view class="detailContent">{{signDetail.signCount}}</view>
+        <view class="detailLabel">打卡次数</view>
+      </view>
+      
+      
+      <!-- <view class="detailItem">
+        <view class="detailLabel">打卡积分:</view>
+      </view>
+      <view class="detailItem">
+        <view class="detailLabel">打卡次数:</view>
+      </view>
+      <view class="detailItem">
+        <view class="detailLabel">上次打卡时间:</view>
+      </view> -->
+    </view>
+    <view class="signContent">
+      <view class="signBall" bind:tap="handleRedirectTakePhoto">
+        <view>
+          <view class="innerWord">学习打卡</view>
+          <view class="innerTime">{{detailTime}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="showLocation">{{location}}</view>
+</view>

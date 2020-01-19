@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view style="height: 100%;">
+  <scroll-view style="height: 100%;">
+    <!-- <button bind:tap="handleSub">订阅</button> -->
+    <!-- 头部图片 -->
+    <view class="topBanner">
+      <image src="../../assets/images/index.jpg" mode="widthFix"></image>
+    </view>
+    <view>
+      <view class="wantPlay">教练！我要打篮球！</view>
+    </view>
+    <!-- <view class="takeButton iconfont icon-camera"></view> -->
+    <!-- 精选资讯 -->
+    <!-- <view class="show-item">
+      <view class="item-title">
+        <view class="main-word">精选资讯</view>
+        <view class="show-more">查看全部></view>
+      </view>
+      <view class="item-content">
+        <view class="content-box">
+          <view class="image-box">
+            <image src="../../assets/images/timg.jpg"></image>
+          </view>
+          <view class="des-word">描述信息1111</view>
+        </view>
+        <view class="content-box">
+          <view class="image-box">
+            <image src="../../assets/images/timg.jpg"></image>
+          </view>
+          <view class="des-word">描述信息222222</view>
+        </view>
+        <view class="content-box">
+          <view class="image-box">
+            <image src="../../assets/images/timg.jpg"></image>
+          </view>
+          <view class="des-word">描述信息333333</view>
+        </view>
+        <view class="content-box">
+          <view class="image-box">
+            <image src="../../assets/images/timg.jpg"></image>
+          </view>
+          <view class="des-word">描述信息44444</view>
+        </view>
+      </view>
+    </view> -->
+  </scroll-view>
+
+</view>

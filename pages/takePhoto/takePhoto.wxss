@@ -1,0 +1,54 @@
+/* pages/takePhoto/takePhoto.wxss */
+@import '/assets/fonts/iconfont/iconfont.wxss';
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #d81e06;
+}
+.takePhoto {
+  width: 100%;
+  height: 100%;
+  /* background-color: skyblue; */
+  position: relative;
+}
+.takeButton {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 60rpx;
+  color: #fff;
+}
+
+.showPhoto {
+  width: 100%;
+  height: 100%;
+}
+
+.showIcon {
+  font-size: 60rpx;
+  position: absolute;
+  top: 16rpx;
+  color: #fff;
+}
+.error {
+  left: 200rpx;
+}
+.success {
+  right: 200rpx;
+}
+
+.btnControl {
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.demo {
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
